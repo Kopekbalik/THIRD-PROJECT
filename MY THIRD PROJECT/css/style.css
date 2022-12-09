@@ -1,0 +1,940 @@
+a {
+    text-decoration: none;
+} 
+ul,
+ol,
+li{
+    list-style: none;
+}
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+[class*="_conteiner"] {
+    max-width: 1635px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+body {
+    height: 100%;
+    line-height: 1;
+}
+.wrapper {
+    
+    min-height: 100%;
+}
+.main {
+    margin: 0px 0px 100px 0px;
+    
+ }  
+.header {
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_conteiner {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 15px 52px 15px;
+    align-items: center;
+    position: relative;
+    margin: 0px auto 60px auto;
+    
+}
+.header_logo_name {
+    max-width: 350px;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    color:#263238;
+}
+.header_menu {
+
+    display: flex;
+    max-width: 360px;
+
+    justify-content: space-between;
+    
+    
+    
+}
+.header_menu_buttton {
+font-family: Lato;
+font-size: 18px;
+font-weight: 300; 
+line-height: 22px;
+letter-spacing: 0em;
+color: #263238;
+margin: 0px 10px;
+}
+.header_button_tap {
+    margin: 0px 5px
+    
+}
+.button_tap {
+    max-width: 350px;
+}
+.button {
+    font-family: Spartan, sans-serif;
+font-size: 14px;
+  font-weight: 300;
+line-height: 20px;
+   letter-spacing: 0em;
+
+
+    border-radius: 7px;
+    padding: 13px 30px; 
+    
+}
+.green {
+    color: #ffffff;
+    background-color: #008000;
+}
+.white { 
+    border: 1px solid #000;
+    color:#000000;
+    background-color: #ffffff;
+}
+.bad_header {
+    position: absolute;
+    right: 25%;
+    bottom: -20px;
+}
+.ellips1 {
+    position: absolute;
+    width: 587px;
+    height: 587px;
+    border: 1px solid #008000;
+    border-radius: 50%;
+    left: -300px;
+    top: -318px;
+}
+.ellips2 {
+    position: absolute;
+    width: 587px;
+    height: 587px;
+    border: 1px solid #008000;
+    border-radius: 50%;
+    left: -350px;
+    top: -250px;
+}
+
+
+
+.invests {
+    text-align: center;
+}
+.invests_conteiner {
+    
+    display: flex;
+    justify-content: center;
+}
+.invests_blok {
+    margin: 0px 0px 200px 0px;
+    max-width: 60%;
+    position: relative;
+    
+}
+.invests_title {
+
+}
+.title_blok {
+    font-family: Lato;
+font-size: 70px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: 0em;
+color: #263238;
+
+
+}
+.title_blok span {
+    color:#008000;
+}
+
+.invests_text {
+    font-family: Spartan, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    
+    color: #646a6d;
+    margin: 70px 0px 50px 0px;
+
+}
+.search_ivestes {
+    display: flex;
+    background-color: #ced1d2;
+    width: 279px;
+    border-radius: 10px;
+    padding: 3px 3px 3px 15px;
+    margin: 0px auto;
+
+}
+.search{
+    border: none;
+    background-color: #ced1d2;
+
+}
+.invests_button_in_search {
+    border: none;
+
+}
+.stiker1 {
+    position: absolute;
+    left: -151px;
+    top: 445px;
+}
+.stiker2 {
+    position: absolute;
+    left: -87px;
+    top: 155px;
+}
+
+.stiker3 {
+    position: absolute;
+    left: 120px;
+    top: 500px;
+
+}
+.stiker4 {
+    position: absolute;
+    right: -25px;
+    top: 390px;
+}
+
+.stiker5 {
+    position: absolute;
+    right: 9px;
+    top: 549px;
+
+}
+.stiker6 {
+    position: absolute;
+    right: -260px;
+    top: 170px;
+
+}
+.logotips {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0px auto;
+}
+.business_logotip {
+    height: 30px;
+}
+
+
+
+
+/*==================================*/
+.works {
+    margin: 200px 0px 0px 0px;
+}
+.works_conteiner {
+    max-width: 1200px; 
+    
+    
+}
+.works_blok {
+    display: flex;
+    
+}
+.works_info {
+    flex: 0 1 50%;
+    padding: 0px 89px 0px 0px;
+}
+
+
+.text_blok {
+font-family: Spartan, sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 23px;
+letter-spacing: 0em;
+color: #263238a6;
+
+}
+
+.blok_items {
+    display: flex;
+
+}
+.items_blok_image {
+}
+.items_blok_text {
+    margin-top: 13px;
+}
+.blok_items_title {
+font-family: Spartan, sans-serif;
+font-size: 17px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+color: #263238;
+
+}
+
+   
+    
+    
+.works_text{
+    margin: 32px  0px ;
+}
+
+
+.works_image {
+
+    background: #0080000D;
+    border-radius: 10px;
+    display: flex;
+   
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px 20px;
+
+}
+.works_img {
+  width: 604px;
+
+  
+}
+.Group {
+    height: 67%;
+    margin: 26px 0px 0px 0px ;
+}
+
+
+
+
+
+
+/*======================*/
+.pathway {
+    margin: 200px 0px 200px 0px ;
+}
+.pathway_conteiner {
+    max-width: 1200px;
+  
+}
+.pathway_blok {
+    display: flex;
+}
+
+.pathway_img {
+    max-width: 564px;
+}
+.pathway_info {
+    flex: 0 1 50%;
+    padding: 0px 0px 0px 100px;
+}
+
+.pathway_text {
+    margin: 32px 0px 32px 0px;
+}
+
+.pathway_select{ 
+    margin: 0px 0px 10px 0px;
+    border: none;
+    background-color: #0080000D;
+    color: #263238;
+    font-family: Spartan, sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+padding: 20px 52px 20px 20px;
+border-radius: 5px;
+}
+.pathway_select:not(:last-child) { 
+    margin: 0px 0px 10px 0px;
+
+}
+
+/*==================================*/
+
+
+.farmvest {
+}
+.farmvest_conteiner {
+    max-width: 1200px;
+    
+}
+.farmvest_blok {
+    display: flex;
+}
+.farmvest_info {
+    flex: 0 1 50%;
+}
+
+
+.farmvest_text {
+    margin: 32px 0px ; 
+}
+.farmvest_image {
+    flex: 0 1 50%;
+}
+.works_image {
+}
+.lesli_img {
+    width: 98%;
+}
+.numbers_text {
+   padding: 0px 0px 0px 40px ;
+}
+.numbers_blok {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 45px 0px;
+}
+.ellips {
+    background-color:#0080000D;
+    width: 52px;
+    height: 52px;
+    color: #008000;
+    border-radius: 34px;
+}
+
+.ellips_number {
+
+   font-family: 'Spartan';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 40px;
+   text-align: center;
+   padding: 7px 0px 0px 0px;
+}
+    
+.customers {
+    margin: 200px 0px 200px 0px;
+}
+.customers_conteiner {
+    max-width: 1200px;
+}
+.customers_statik {
+    text-align: center;
+}
+.customers_title {
+}
+.title_blok {
+}
+.customers_text {
+    margin: 40px 0px ;
+}
+.text_blok {
+}
+.customers_portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+.port {
+    display: flex;
+    background-color: #0080000D;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.rigth_port_person_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.person_text{
+    
+    color: #263238;
+    
+
+}
+.person_name {
+    font-family: Spartan,sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0em;
+
+
+}
+.port_person_img {
+    width: 47%;
+}
+.customers_statik_btn {
+    text-align: center;
+    margin: 50px 0px 0px 0px 
+}
+.customers_btn {
+}
+.button {
+}
+.green {
+}
+
+.download {
+    
+}
+.download_conteiner {
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+}
+.download_blok {
+    text-align: center;
+    background-color:#0080000D;
+    border-radius: 20px;
+    padding: 50px 0px ;
+}
+
+
+
+ .download_title {
+    font-size: 56px;
+    z-index: 2;
+    position: relative;
+
+}
+.title_blok {
+}
+.download_icon {
+    margin: 42px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    width: 171px;
+    margin: 0px 0px 0px 26px;
+}
+.ellips_downlaod1 {
+    position: absolute;
+    width: 532px;
+    height: 533px;
+    border: 1px solid #008000;
+    border-radius: 50%;
+    left: 346px;
+    top: -107px;
+}
+.ellips_downlaod2 {
+    position: absolute;
+    width: 532px;
+    height: 533px;
+    border: 1px solid #008000;
+    border-radius: 50%;
+    left: 346px;
+    top: -33px;
+}
+
+.footer {
+    background-color: #0080000D;
+}
+.footer_conteiner {
+    max-width: 1350px;
+    padding: 50px 0px 0px 0px;
+}
+.footer_blok {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 54px 0px;
+}
+.footer_farmvest_text_blok {
+}
+.footer_farm_vest_title {
+}
+.footer_farm_vest_text {
+    margin: 20px 0px 0px 0px;
+}
+.text_blok {
+}
+.footer_subscribe {
+}
+.footer_subscribe_text {
+    margin: 31px 0px 20px 0px ;
+}
+.footer_search {
+    margin: 0px;
+    padding: 3px 5px 3px 20px
+}
+.search {
+}
+.invests_button_in_search {
+}
+.button {
+}
+.green {
+}
+.footer_followus_callus {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+}
+.follow_us {
+}
+.follow_us_text {
+    font-family: spartan, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #263238;
+}
+.follow_us_icon {
+    margin: 33px 0px 0px 0px;
+    display: flex;
+    
+}
+.follow_icon {
+    margin: 8px 0px 0px 0px ;
+    
+}
+.instagram {
+    background-color:#008000;
+    width: 48px;
+    height: 48px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    margin: 8px 9px 0px 0px;
+}
+
+.fcbk {
+}
+.vector {
+}
+.call_us {
+}
+.call_us_text {
+    font-family: spartan, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #263238;
+}
+.call_us_namber {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+color: #263238;
+
+    margin: 56px 0px 0px 0px
+
+}
+.line {
+    
+    border-bottom: 1px solid #2632384F;
+}
+.footer_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.mini_text {
+    font-family: Spartan, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #263238;
+}
+.footer_footer_items {
+}
+.f {
+    margin: 0px 12px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1260px) {
+    [class*="_conteiner"] {
+        max-width: 1100px;
+    }
+    
+        .pathway_select {
+            padding: 20px 13px 20px 12px;
+        }
+       .pathway_info {
+        padding: 0px 0px 0px 49px;
+       }
+}
+
+
+
+@media (max-width:1282px) {
+    [class*="_conteiner"] {
+        max-width: 980px;
+    }
+    .pathway_img {
+        max-width: 429px;
+    }
+    .ellips_downlaod1{
+        left: 242px;
+    }
+    .ellips_downlaod2{
+        left: 242px;
+    }
+}
+
+
+@media (max-width:1110px) {
+    [class*="_conteiner"] {
+        max-width: 800px;
+    }
+    .farmvest_image {
+        flex: 0 1 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .button_tap {
+        display: none;
+    }
+    .header_menu {
+        display: none;
+    }
+    .works_img {
+        width: 335px;
+    }
+    .pathway_img {
+        max-width: 335px;
+    }
+    .pathway_info {
+        padding: 0px 0px 0px 9px;
+       }
+    .pathway_select {
+        font-size: 20px;
+        font-weight: 300;
+    
+    }
+    .rigth_port_person_info{
+        margin-left: 13px;
+    }
+    .ellips_downlaod1{
+        left: 145px;
+    }
+    .ellips_downlaod2{
+        left: 145px;
+    }
+    .footer_blok{
+        flex-wrap: wrap;
+    }
+    .port_person_img {
+        width: 145px;
+    }
+    .customers_portfolio {
+        flex-direction: column;
+    }
+    .left_port {
+        margin-bottom: 20px;
+    }
+    .stiker3 {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    [class*="_conteiner"] {
+        max-width: 750px;
+    }
+    .stiker6 {
+        right: -96px;
+    }
+    .header_menu {
+        display: none;
+    }
+    .ellips1{
+        position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #008000;
+    border-radius: 50%;
+    left: -269px;
+    top: -225px;
+
+    }
+    .ellips2 {
+        position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #008000;
+    border-radius: 50%;
+    left: -222px;
+    top: -276px;
+    }
+    .business_logotip {
+        height: 19px;
+    }
+    .download_blok  {
+        padding: 25px ;
+    }
+    .download_title{
+        font-size: 46px;
+    }
+    .download_icon {
+        margin-top: 25px;
+    }
+}
+
+
+
+@media (max-width:800px) {
+    [class*="_conteiner"] {
+        max-width: 650px;
+    }
+    
+    
+    .farmvest_blok {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .farmvest_image {
+        margin-top: 40px;
+    }
+    .farmvest_info {
+        text-align: center;
+    }
+    .works_blok {
+        flex-direction: column;
+        text-align: center;
+    }
+    .Group {
+        height: 60%;
+    }
+    .blok_items_title {
+        text-align: left;
+    }
+    .works_info {
+        padding: 0px;
+    }
+    .works_image {
+        display: block;
+        text-align: center;
+    }
+    .works_img {
+        width: 440px;
+    }
+    .pathway_img  {
+        max-width: 440px;
+    }
+    .pathway_blok {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .pathway_info {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .ellips_downlaod1{
+        left: 76px;
+    }
+    .ellips_downlaod2{
+        left: 76px;
+    }
+}
+@media (max-width:750px) {
+    [class*="_conteiner"] {
+        max-width: 500px;
+    }.business_logotip {
+        height: 19px;
+    }
+    .ellips1 {
+        top: -284px;
+    }
+    .ellips2 {
+        top: -322px;
+    }
+    .header_conteiner {
+        padding: 30px 15px 40px 15px;
+    }
+    .footer_footer {
+        flex-direction: column;
+    }
+    .ellips_downlaod1{
+       display: none;
+    }
+    .ellips_downlaod2{
+        display: none;
+    }
+    .title_blok {
+        font-size: 50px;
+    }
+    .works_img {
+        width: 350px;
+    }
+    .pathway_img {
+        max-width: 350px;
+    }
+    .logotips {
+        display: none;
+    }
+    
+}
+@media (max-width:500px) {
+    [class*="_conteiner"] {
+        max-width: 350px;
+    }
+    .works_img {
+        width: 300px;
+    }
+    .pathway_img {
+        max-width: 300px;
+    }
+    .title_blok {
+        font-size: 27px;
+        font-weight: 900;
+    }
+    .download_icon {
+        margin: 42px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .icon {
+        margin: 0px;
+    }
+    .pathway_select{
+     font-size: 15px; 
+    }
+    .invests_blok {
+        max-width: 100%;
+        margin: 0px;
+    }
+        .stiker6 {
+            right: 0px
+        }
+    
+    
+    
+}
